@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pastelaria do Seu Zé</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#"><img class="logoimage" src="./img/logo.png" alt="Logo"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#landing-page">Landing-Page</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#area-produtos">Produtos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contatos">Contatos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#sobre-nos">Sobre Nós</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <section id="home" class="container-fluid">
+    <div class="row">
+      <!-- Coluna da esquerda com os botões e texto -->
+      <div class="col-lg-6">
+        <div class="d-flex flex-column justify-content-center align-items-center h-100">
+          <h2>Bem-vindo à Pastelaria do Seu Zé!</h2>
+          <p>Somos sua escolha perfeita para uma variedade de deliciosos pasteis. Confira nossos produtos ou peça pelo
+            iFood!</p>
+          <!-- Botões -->
+          <div class="d-flex flex-column mt-4">
+            <a href="#produtos" class="btn btn-primary mb-2">Produtos</a>
+            <a href="https://www.ifood.com.br" target="_blank" class="btn btn-secondary">iFood</a>
+          </div>
+        </div>
+      </div>
+      <!-- Coluna da direita com a imagem -->
+      <div class="col-lg-6">
+        <img src="./img/home.png" class="img-fluid margin" alt="Imagem da Pastelaria">
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="landing-page" class="container-fluid bg-light">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2>Bem-vindo à Pastelaria do Seu Zé!</h2>
+        <p>Somos mais do que uma simples pastelaria. Somos um pedaço da tradição, um refúgio de sabor e um oásis de
+          conforto em meio à agitação do dia a dia. Aqui, cada pastel é uma obra de arte, cuidadosamente preparada para
+          encantar seu paladar e aquecer seu coração.</p>
+        <p>Imagine-se entrando em nosso espaço acolhedor, onde o aroma irresistível de pasteis recém-saídos do forno
+          preenche o ar. Nossa equipe calorosa e acolhedora está sempre pronta para recebê-lo com um sorriso, pronto
+          para guiá-lo em uma jornada culinária inesquecível. </p>
+        <p>Cada pastel que criamos é uma homenagem à tradição e à paixão pela culinária. Utilizamos apenas os
+          ingredientes mais frescos e selecionados, combinados com técnicas artesanais transmitidas de geração em
+          geração. O resultado? Pastéis que são uma explosão de sabor em cada mordida.</p>
+        <p>Além de nossos deliciosos pasteis, oferecemos uma variedade de acompanhamentos e bebidas para complementar
+          sua experiência gastronômica. Quer esteja procurando por um lanche rápido ou um local aconchegante para
+          desfrutar de uma refeição relaxante, a Pastelaria do Seu Zé é o lugar ideal</p>
+        <p>Junte-se a nós nesta jornada culinária e descubra o verdadeiro sabor da tradição. Seja bem-vindo à Pastelaria
+          do Seu Zé, onde cada pastel conta uma história e cada visita é uma celebração da boa comida e da amizade.</p>
+      </div>
+    </div>
+  </section>
+
+  <!--
+  <div class="col-lg-4 col-md-6">
+    <div class="card mb-${value}">
+      <img src="${image}" class="card-img-top" alt="${produto.nome}">
+      <div class="card-body">
+          <h5 class="card-title">${produto.nome}</h5>
+          <p class="card-text">${produto.descrição}</p>
+          <p class="card-text">Preço: R$${produto.preço}</p>
+          <a href="#" class="btn btn-primary">Selecionar</a>
+      </div>
+    </div>
+  </div>
+-->
+
+  <section id="area-produtos" class="container-fluid">
+    <div class="col-lg-12 text-center">
+      <h2>Produtos</h2>
+      <p>De uma olhada em nosso produtos!</p>
+    </div>
+    <div id="produtos" class="row">
+    </div>
+
+
+    <section id="contatos" class="container-fluid bg-light">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2>Informações de Contato</h2>
+          <p>Estamos sempre prontos para ajudar e responder às suas perguntas. Não hesite em entrar em contato conosco!
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 offset-lg-3">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Entre em Contato</h5>
+              <p class="card-text">Se tiver alguma dúvida ou precisar de assistência, não hesite em nos contatar.
+                Estamos aqui para ajudar!</p>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Telefone: (98) 7654-3210</li>
+                <li class="list-group-item">E-mail: contato@pastelariadoseuze.com</li>
+                <li class="list-group-item">Endereço: Av. Paulista, 1106 - 01311-000</li>
+              </ul>
+              <a href="#msg" class="btn btn-primary mt-3">Enviar Mensagem</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section id="sobre-nos" class="container-fluid bg-light">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2>Sobre Nós</h2>
+          <p>Somos a Pastelaria do Seu Zé, um local onde cada pastel conta uma história e cada visita é uma celebração
+            da boa comida e da amizade.</p>
+          <p>Nossa jornada começou há mais de uma década, quando o Sr. José, carinhosamente conhecido como Seu Zé,
+            decidiu compartilhar sua paixão pela culinária com a comunidade local. Desde então, temos nos dedicado a
+            criar pasteis deliciosos, feitos à mão com ingredientes frescos e de alta qualidade.</p>
+          <p>Aqui na Pastelaria do Seu Zé, acreditamos em valores como hospitalidade, qualidade e tradição. Nosso
+            objetivo é proporcionar uma experiência gastronômica excepcional a cada cliente, oferecendo pasteis que são
+            uma verdadeira explosão de sabor e amor em cada mordida.</p>
+          <p>Nossa equipe é composta por chefs talentosos e dedicados, que trabalham incansavelmente para garantir que
+            cada pastel seja perfeito em sabor e apresentação. Além disso, estamos sempre em busca de inovação, criando
+            novos sabores e combinações para surpreender e encantar nossos clientes.</p>
+          <p>Na Pastelaria do Seu Zé, não se trata apenas de comer; trata-se de criar memórias e compartilhar momentos
+            especiais com amigos e familiares. Estamos honrados em fazer parte da vida de nossa comunidade e esperamos
+            receber você em nossa pastelaria em breve!</p>
+        </div>
+      </div>
+    </section>
+
+
+    <footer class="container-fluid bg-dark text-white text-center py-3">
+      <p>&copy; 2021 - 2024 Pastelaria do Seu Zé</p>
+    </footer>
+
+
+    <script src="./script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
