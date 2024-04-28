@@ -5,9 +5,11 @@
     font-family: inter;
     font-weight: 500;
 }
+
 .margin {
-    margin: 0.5em;
+    margin: 1em;
 }
+
 .logoimage { 
     width: 3vw;
     height: auto;
@@ -16,8 +18,34 @@
 .text {
     margin-left: 2em;
     margin-right: 2em;
-    font-size: 1.5vw;
+    font-size: 1em;
     font-weight: 500;
     text-align: justify;
     text-justify: inter-word;
+}
+
+.primary {
+    color: #ffffff;
+    border: 1px solid #56B280;
+    background-color: #56B280;
+    transition: 450ms ease-in-out;
+}
+
+.primary:hover {
+    color: #56B280;
+    background-color: #ffffff;
+    border: 1px solid #56B280;
+}
+
+.secondary {
+    color: #272727;
+    background-color: #D6D6D6;
+    border: 1px solid #D6D6D6;
+    transition: 450ms ease-in-out;
+}
+
+.secondary:hover {
+    color: #D6D6D6;
+    background-color: #272727;
+    border: 1px solid #272727;
 }

@@ -29,7 +29,7 @@ function ShowProdutos() {
                         <h5 class="card-title">${produto.nome}</h5>
                         <p class="card-text">${produto.descricao}</p>
                         <p class="card-text">Preço: R$${produto.preco}</p>
-                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#${modalId}">
+                        <button type="button" class="btn primary" data-toggle="modal" data-target="#${modalId}">
                             Ver Mais
                         </button>
                     </div>
@@ -60,8 +60,8 @@ function ShowProdutos() {
                             </div>
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                            <button type="button" class="btn btn-primary">Adicionar Produto</button>
+                            <button type="button" class="btn secondary" data-dismiss="modal">Fechar</button>
+                            <button type="button" class="btn primary">Adicionar Produto</button>
                         </div>
                     </div>
                 </div>
